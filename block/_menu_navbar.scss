@@ -1,0 +1,61 @@
+
+.mn_show,
+.pizza_div2 {
+  background: linear-gradient(261.69deg, #ff5924 12.12%, #ffa229 86.72%);
+}
+
+.mn_meat,
+.mn_show {
+  box-shadow: 0 9px 40px rgba(255, 107, 0, 0.06);
+  border-radius: 100px;
+  width: 229.92857360839844px;
+  height: 62px;
+  font-weight: 500;
+  color: #fff;
+  font-style: normal;
+  text-align: center;
+}
+
+.menu_navbar,
+.pizza {
+  display: flex;
+  align-items: center;
+}
+.menu_navbar {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.mn_show {
+  padding: 20px;
+  font-size: 20px;
+}
+.mn_meat:hover {
+  background: linear-gradient(261.69deg, #db6037 12.12%, #f19013 86.72%);
+}
+.mn_meat {
+  background: #210a01;
+  font-size: 22px;
+  padding: 19px;
+  box-shadow: #ff6b000f;
+}
+.menu_title {
+  margin-bottom: 50px;
+  margin-top: 100px;
+  font-size: 69.17px;
+  text-align: center;
+  color: #fff;
+}
+
+@media only screen and (max-width:480px)
+{
+  .menu_navbar
+  {
+    flex-wrap: wrap;
+  }
+
+  .mn_show, .mn_meat{
+    width: 100px;
+    font-size: 15px;
+  }
+}
